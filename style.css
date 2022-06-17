@@ -1,0 +1,80 @@
+:root {
+  --Soft_Red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+  --Dark_brown: hsl(25, 47%, 15%);
+  --Medium_brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very_pale_orange: hsl(33, 100%, 98%);
+  --Nunito: "Nunito", sans-serif;
+}
+
+body {
+  background-color: var(--Cream) !important;
+}
+
+.balance {
+  margin: 1rem;
+  background-color: var(--Soft_Red);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--Very_pale_orange);
+}
+.balance h2 {
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: light;
+}
+.balance p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.balance img {
+  height: 25px;
+}
+
+.report {
+  background-color: var(--Very_pale_orange);
+  font-family: var(--Nunito);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.report h2 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.report .chart {
+  height: 10rem;
+  margin-top: 1rem;
+  width: 100%;
+  background-color: var(--Cyan);
+  border-bottom: 1px solid var(--Soft_Red);
+}
+.report #chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+.report .price-title {
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: light;
+  color: var(--Medium_brown);
+}
+.report .price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: var(--Dark_brown);
+}
+.report .persent {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: var(--Dark_brown);
+  font-weight: 700;
+}
+.report .discription {
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+  color: var(--Medium_brown);
+}

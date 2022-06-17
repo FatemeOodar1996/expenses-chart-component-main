@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&family=League+Spartan:wght@100;400;600;900&family=Nunito:ital,wght@0,400;0,700;0,900;1,200;1,400&family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div>
+          <div
+            class="balance col-md-4 col-12 mx-auto d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h2>My balance</h2>
+              <p>$921.48</p>
+            </div>
+            <div>
+              <img src="./images/logo.svg" alt="" srcset="" />
+            </div>
+          </div>
+          <div
+            class="report col-md-4 col-12 mx-auto justify-content-between align-items-center"
+          >
+            <h2>Spending - Last 7 days</h2>
+            <div class="chart" id="chart"></div>
+            <div class="d-flex justify-content-between mt-3 align-items-end">
+              <div>
+                <h2 class="price-title">Total this month</h2>
+                <p class="price">$478.33</p>
+              </div>
+              <div>
+                <p class="persent">+2.4%</p>
+                <p class="discription">from last month</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
