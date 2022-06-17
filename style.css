@@ -55,6 +55,9 @@ body {
   max-width: 650px;
   margin: 35px auto;
 }
+.report .apexcharts-toolbar {
+  display: none !important;
+}
 .report .price-title {
   font-size: 12px;
   margin-bottom: 0;
