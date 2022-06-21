@@ -32,3 +32,7 @@ var options = {
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 
 chart.render();
+
+fetch("./data.json")
+  .then((response) => response.json())
+  .then((obj) => console.log(obj));
