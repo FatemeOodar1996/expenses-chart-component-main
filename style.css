@@ -48,7 +48,6 @@ body {
   height: 10rem;
   margin-top: 1rem;
   width: 100%;
-  background-color: var(--Cyan);
   border-bottom: 1px solid var(--Soft_Red);
 }
 .report #chart {
